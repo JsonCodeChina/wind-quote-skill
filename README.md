@@ -26,13 +26,7 @@ git clone https://github.com/JsonCodeChina/wind-quote-skill ~/.claude/skills/win
 ### 方式 2：手动
 
 ```bash
-# 公网（推荐）
 git clone https://github.com/JsonCodeChina/wind-quote-skill ~/.claude/skills/wind-quote-skill
-
-# 内网镜像（备用）
-git clone https://116.247.70.123:9444/bshen/market.git /tmp/m
-cd /tmp/m && git sparse-checkout set skills/wind-quote-skill
-cp -r skills/wind-quote-skill ~/.claude/skills/ && rm -rf /tmp/m
 ```
 
 ### 配置 API Key
