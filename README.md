@@ -20,14 +20,14 @@
 在 Claude 里说："我要查 A 股行情"。AI 会在当前会话执行：
 
 ```bash
-git clone https://github.com/JsonCodeChina/quote-skill ~/.claude/skills/wind-quote-skill
+git clone https://github.com/JsonCodeChina/wind-quote-skill ~/.claude/skills/wind-quote-skill
 ```
 
 ### 方式 2：手动
 
 ```bash
 # 公网（推荐）
-git clone https://github.com/JsonCodeChina/quote-skill ~/.claude/skills/wind-quote-skill
+git clone https://github.com/JsonCodeChina/wind-quote-skill ~/.claude/skills/wind-quote-skill
 
 # 内网镜像（备用）
 git clone https://116.247.70.123:9444/bshen/market.git /tmp/m
